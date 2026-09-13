@@ -12,6 +12,6 @@ app.use(cors());
 ConnectMongoDB();
 app.use("/", URLRoutes);
 
-app.lien(5050, () => {
+app.listen(5050, () => {
   console.log("server is running on port 5050");
 });
